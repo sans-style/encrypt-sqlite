@@ -1,38 +1,29 @@
 {
-  "name": "sqlite-sync",
-  "description": "Node module to sqlite sync and async ",
-  "readmeFilename": "README.md" ,
-  "keywords": [
-    "sqlite",
-    "sqlite3",
-    "sync",
-    "async",
-    "database"
-  ],
-  "tags": [
-    "sqlite",
-    "sqlite3",
-    "sync",
-    "async",
-    "database"
-  ],
-  "version": "0.3.6",
-  "author": {
-    "name": "Jayr Alencar",
-    "email": "jayralencarpereira@gmail.com",
-    "homepage": "http://www.jayralencar.com.br"
+  "name": "encrypt-sqlite",
+  "version": "0.2.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JayrAlencar/sqlite-sync.js"
+    "url": "git+https://github.com/sans-style/encrypt-sqlite.git"
   },
-  "dependencies":{
-    "sql.js":"0.3.2"
-  },
-  "scripts": { "test": "node test/test.js" },
+  "author": "",
   "license": "MIT",
-  "engines": {
-    "node": ">=0.8.0"
+  "bugs": {
+    "url": "https://github.com/sans-style/encrypt-sqlite/issues"
   },
-  "main": "sqlite.js"
+  "homepage": "https://github.com/sans-style/encrypt-sqlite#readme",
+  "dependencies": {
+    "atob": "^2.0.3",
+    "btoa": "^1.1.2",
+    "sql.js": "^0.5.0",
+    "tweetnacl": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4"
+  }
 }
